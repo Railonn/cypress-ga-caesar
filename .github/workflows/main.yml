@@ -10,5 +10,5 @@ jobs:
         run: npm install
       - name: Cypress.io
         uses: cypress-io/github-action@v2.9.7
-          with:
-            working-directory: app
+        with:
+          working-directory: app
